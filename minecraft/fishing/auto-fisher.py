@@ -12,8 +12,8 @@ while True:
 
     print(text)
     if "obber splashes" in text:
-        # pyautogui.mouseDown(button="left")
-        # pyautogui.mouseUp(button="left")
+        # pyautogui.mouseDown(button="right")
+        # pyautogui.mouseUp(button="right")
         subprocess.run("xdotool click 3",shell=True)
         time.sleep(0.5)
         subprocess.run("xdotool click 3",shell=True) 
